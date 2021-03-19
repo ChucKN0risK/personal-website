@@ -11,8 +11,8 @@ I co-founded [Specify](https://specifyapp.com) to help companies manage their br
 
 ## Some places you can find me on
 - [Twitter](https://twitter.com/Chuckn0risk)
-- [Design Systems Slack Community](design-systems.slack.com)
-- [Design System France Slack Community](designsystemsfrance.slack.com)
+- [Design Systems Slack Community](https://design-systems.slack.com/)
+- [Design System France Slack Community](https://designsystemsfrance.slack.com)
 - [SoundCloud](https://soundcloud.com/chuckn0risk)
 - [Notist](https://noti.st/louischenais)
 
