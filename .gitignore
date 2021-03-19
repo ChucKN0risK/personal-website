@@ -4,3 +4,4 @@ dist
 dist-ssr
 *.local
 _site
+package-lock.json
