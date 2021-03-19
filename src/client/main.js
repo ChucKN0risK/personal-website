@@ -18,10 +18,6 @@ function init() {
     if (import.meta.env.DEV === true) {
       successNode.innerText = "Vite is serving the script correctly!";
     }
-    if (import.meta.env.PROD === true) {
-      successNode.innerText =
-        "Vite has built the files statically and Eleventy injected the correct script tag!";
-    }
     alertNode.appendChild(successNode);
   }, 400);
 }
