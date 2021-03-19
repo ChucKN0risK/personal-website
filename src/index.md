@@ -16,7 +16,7 @@ I co-founded [Specify](https://specifyapp.com) to help companies manage their br
 - [SoundCloud](https://soundcloud.com/chuckn0risk)
 - [Notist](https://noti.st/louischenais)
 
-## What I can share with you:
+## What I can share with you
 ### 2020
 - [Design Systems France Meetup #9 - Standardisation des design tokens](https://www.youtube.com/watch?v=vs8DjsdOroc) 🇫🇷
 - [Design Tokens: To Infinity and Beyond](https://noti.st/louischenais/byPUwK/design-tokens-to-infinity-and-beyond)
