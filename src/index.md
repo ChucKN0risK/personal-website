@@ -3,7 +3,8 @@ layout: layouts/base.njk
 title: Home
 ---
 
-Bonjour, I'm Louis 👋 (but my friends call me Lucho)
+# Bonjour, I'm Louis 👋
+(but my friends call me Lucho)
 
 I like everything that blinks, internet, design systems and une belle côte de boeuf bien persillée.
 
