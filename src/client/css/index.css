@@ -56,7 +56,7 @@ body {
     }
 }
 
-main {
+header, main, footer {
     width: clamp(16rem, 90vw, 65ch);
     margin-left: auto;
     margin-right: auto;

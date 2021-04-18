@@ -15,6 +15,11 @@
     <main>
         {{ content | safe }}
     </main>
+    <footer>
+        <div>
+            <p>&copy; {% year %} {{ meta.siteName }}{% if meta.authorName %} • {{ meta.authorName }}{% endif %}</p>
+        </div>
+    </footer>
     {#  
         We must split development  and production scripts
         In development, vite runs a server to resolve and reload scripts

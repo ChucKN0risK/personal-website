@@ -18,6 +18,10 @@ I co-founded [Specify](https://specifyapp.com) to help companies manage their br
 - [Notist](https://noti.st/louischenais)
 
 ## What I can share with you
+
+### 2021
+- [Why your design system needs an API](https://noti.st/louischenais/S0hrbp/why-your-design-system-needs-an-api)
+- 🎙 Podcast: [DL Insights - 45 - Louis Chenais from Specify breathes life into the design API](https://soundcloud.com/digitaleleute/specify-breathes-life-into-design-api)
 ### 2020
 - [Design Systems France Meetup #9 - Standardisation des design tokens](https://www.youtube.com/watch?v=vs8DjsdOroc) 🇫🇷
 - [Design Tokens: To Infinity and Beyond](https://noti.st/louischenais/byPUwK/design-tokens-to-infinity-and-beyond)

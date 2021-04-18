@@ -41,6 +41,8 @@ module.exports = function (eleventyConfig) {
     viteLinkStylesheetTags
   );
 
+  eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
+
   async function viteScriptTag(entryFilename) {
     const entryChunk = await getChunkInformationFor(entryFilename);
     return `<script type='module' src='${PATH_PREFIX}${entryChunk.file}'></script>`;
