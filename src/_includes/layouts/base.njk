@@ -1,25 +1,7 @@
 {# Base HTML, compatible with what Vite expects #}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{title or metadata.title}}</title>
-    <meta name="description" content="{{ description or metadata.description }}" />
-    <link rel="canonical" href="{{ page.url }}" />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="{{ title or metadata.title }}"/>
-    <meta property="og:url" content="{{ page.url }}" />
-    <meta property="og:description" content="{{ description or metadata.description }}" />
-    <meta property="og:image" content="{{ metadata.ogImg }}" />
-    <meta property="og:type" content="article" />
-
-    {% if build.env == "production" %}
-        {# Add any CSS from the main script #}
-        {% viteLinkStylesheetTags "src/client/main.js" %}
-    {% endif %}
-</head>
+{% include "components/_site-head.njk" %}
 <body>
     {% include "components/_header.njk" %}
     <main>

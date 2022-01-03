@@ -3,7 +3,6 @@ layout: layouts/base.njk
 title: Music Review • Music For Psychedelic Therapy
 description: Why you should listen to Jon Hopkins' latest album "Music For Psychedelic Therapy" 
 date: '2022-01-04'
-url: 'review-music-for-psychedelic-therapy'
 ---
 # Music Review • Music For Psychedelic Therapy
 
