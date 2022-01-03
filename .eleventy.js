@@ -15,7 +15,18 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
 
   const pluginSEO = require("eleventy-plugin-seo");
-  eleventyConfig.addPlugin(pluginSEO, require("./src/_data/seo.json"));
+  eleventyConfig.addPlugin(pluginSEO, {
+    title: "Louis Chenais' personal website",
+    description: "Hello from Lucho",
+    url: "https://lucho.cool",
+    author: "Louis Chenais",
+    twitter: "chuckn0risk",
+    image: "foo.jpg",
+    options: {
+      titleStyle: "minimalistic",
+      titleDivider: "|"
+    }
+  });
 
   let markdownIt = require('markdown-it');
   let markdownItOptions = {

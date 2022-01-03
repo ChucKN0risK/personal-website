@@ -4,5 +4,9 @@
   "url": "https://lucho.cool",
   "author": "Louis Chenais",
   "twitter": "chuckn0risk",
-  "image": "foo.jpg"
+  "image": "foo.jpg",
+  "options": {
+    "titleStyle": "minimalistic",
+    "titleDivider": "|"
+  }
 }

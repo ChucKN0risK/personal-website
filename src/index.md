@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 title: Home
+ogtype: website
 ---
 
 # Bonjour, I'm Louis 👋
