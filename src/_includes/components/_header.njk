@@ -1,0 +1,16 @@
+<header>
+  <a href="/">Home</a>
+  <ul class="u-list-style:none">
+  {%- for entry in collections.all | eleventyNavigation %}
+    <li>
+      {% if page.url == entry.url %}
+        {{entry.key}}
+      {% else %}
+      <a href="{{entry.url}}" {% if page.url == entry.url %} aria-current="page"{% endif %}>
+        {{entry.key}}
+      </a>
+      {% endif %}
+    </li>
+  {%- endfor %}
+  </ul>
+</header>

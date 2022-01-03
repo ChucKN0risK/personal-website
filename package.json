@@ -13,6 +13,7 @@
   },
   "main": "index.js",
   "dependencies": {
+    "@11ty/eleventy-navigation": "^0.3.2",
     "markdown-it-attrs": "^4.0.0",
     "markdown-it-link-attributes": "^3.0.0"
   },

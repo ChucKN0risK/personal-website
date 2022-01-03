@@ -6,15 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{title or metadata.title}}</title>
-    <meta name="description" content="{{ description or metadata.description }}" />
-    <link rel="canonical" href="{{ page.url }}" />
-    <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="{{ title or metadata.title }}"/>
-    <meta property="og:url" content="{{ page.url }}" />
-    <meta property="og:description" content="{{ description or metadata.description }}" />
-    <meta property="og:image" content="{{ metadata.ogImg }}" />
-    <meta property="og:type" content="article" />
-
     {% if build.env == "production" %}
         {# Add any CSS from the main script #}
         {% viteLinkStylesheetTags "src/client/main.js" %}
@@ -23,7 +14,26 @@
 <body>
     {% include "components/_header.njk" %}
     <main>
-        {{ content | safe }}
+        <h1>Writing</h1>
+        <ul>    
+            {% for item in collections.writing %}
+            <li>
+                <a
+                    href="{{ item.url }}"
+                    aria-label="See {{ item.data.title }}"
+                    class=""
+                >
+                    {{ item.data.title }}
+                    {# <img
+                        src="{{ item.data.hero.image }}"
+                        alt="{{ item.data.hero.imageAlt }}"
+                        loading="lazy"
+                        class="radius"
+                    /> #}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
     </main>
     {% include "components/_footer.njk" %}
     {#  

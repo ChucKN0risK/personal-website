@@ -8,7 +8,12 @@ const OUTPUT_DIR = '_site';
 // vite-related shortcodes below. Double-check if you change this, as this is only a demo :)
 const PATH_PREFIX = '/';
 
+// Filters-
+const w3DateFilter = require("./src/filters/w3-date-filter.js");
+
 module.exports = function (eleventyConfig) {
+  eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
+
   let markdownIt = require('markdown-it');
   let markdownItOptions = {
     html: true
@@ -24,6 +29,9 @@ module.exports = function (eleventyConfig) {
   let markdownLib = markdownIt(markdownItOptions).disable('code').use(mila, milaOptions);
   eleventyConfig.setLibrary('md', markdownLib);
 
+  const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+  eleventyConfig.addPlugin(eleventyNavigationPlugin);
+  
   // Read Vite's manifest.json, and add script tags for the entry files
   // You could decide to do more things here, such as adding preload/prefetch tags
   // for dynamic segments
@@ -42,6 +50,12 @@ module.exports = function (eleventyConfig) {
   );
 
   eleventyConfig.addShortcode('year', () => `${new Date().getFullYear()}`);
+
+  eleventyConfig.addCollection('writing', collection => {``
+    return collection
+      .getFilteredByGlob(`./${INPUT_DIR}/writing/*.md`)
+      .sort((a, b) => (Number(a.data.displayOrder) > Number(b.data.displayOrder) ? 1 : -1));
+  });
 
   async function viteScriptTag(entryFilename) {
     const entryChunk = await getChunkInformationFor(entryFilename);
@@ -94,6 +108,8 @@ module.exports = function (eleventyConfig) {
 
     return entryChunk;
   }
+
+
 
   return {
     templateFormats: ['md', 'njk', 'html'],
