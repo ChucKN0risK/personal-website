@@ -6,11 +6,7 @@
     <meta name="description" content="{{ description or metadata.description }}" />
     <link rel="canonical" href="{{ page.url }}" />
     <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="{{ title or metadata.title }}"/>
-    <meta property="og:url" content="{{ page.url }}" />
-    <meta property="og:description" content="{{ description or metadata.description }}" />
-    <meta property="og:image" content="{{ metadata.ogImg }}" />
-    <meta property="og:type" content="article" />
+    {% seo "" %}
 
     {% if build.env == "production" %}
         {# Add any CSS from the main script #}

@@ -14,6 +14,9 @@ const w3DateFilter = require("./src/filters/w3-date-filter.js");
 module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
 
+  const pluginSEO = require("eleventy-plugin-seo");
+  eleventyConfig.addPlugin(pluginSEO, require("./src/_data/seo.json"));
+
   let markdownIt = require('markdown-it');
   let markdownItOptions = {
     html: true
