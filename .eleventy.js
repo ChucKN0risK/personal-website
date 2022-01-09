@@ -8,7 +8,7 @@ const OUTPUT_DIR = '_site';
 // vite-related shortcodes below. Double-check if you change this, as this is only a demo :)
 const PATH_PREFIX = '/';
 
-// Filters-
+// Filters
 const w3DateFilter = require("./src/filters/w3-date-filter.js");
 const dateFilter = require("./src/filters/date-filter.js");
 
@@ -19,7 +19,7 @@ module.exports = function (eleventyConfig) {
   const pluginSEO = require("eleventy-plugin-seo");
   eleventyConfig.addPlugin(pluginSEO, {
     title: "Louis Chenais, co-founder of Specify",
-    description: "Hello from Lucho",
+    description: "UI developer interested in making people's life easier to build and consume digital applications.",
     url: "https://lucho.cool",
     author: "Louis Chenais",
     twitter: "chuckn0risk",
