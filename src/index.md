@@ -6,7 +6,7 @@ ogtype: website
 # Bonjour, I'm Louis 👋
 (but my friends call me Lucho)
 
-I like everything that blinks, internet, design systems and une belle côte de boeuf bien persillée.
+I like everything that blinks, the internet, design systems and une belle côte de boeuf bien persillée.
 
 I co-founded [Specify](https://specifyapp.com) to help companies manage their brand at scale. I also work with the [Design Tokens Community Group](https://designtokens.org) to create a standard for design tokens. Finally, I invented raclette in 1872.
 
