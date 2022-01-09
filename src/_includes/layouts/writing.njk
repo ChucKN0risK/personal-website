@@ -6,15 +6,19 @@
     {% include "components/_header.njk" %}
     <main>
         <h1>Writing</h1>
+        <h2>Here're a few words I've written.</h2>
         <ul>    
             {% for item in collections.writing %}
             <li>
                 <a
                     href="{{ item.url }}"
                     aria-label="See {{ item.data.title }}"
-                    class=""
+                    class="article"
                 >
-                    {{ item.data.title }}
+                    <article>
+                        <h3>{{ item.data.title }}</h3>
+                        <time datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
+                    </article>
                     {# <img
                         src="{{ item.data.hero.image }}"
                         alt="{{ item.data.hero.imageAlt }}"

@@ -1,6 +1,5 @@
 ---
 layout: layouts/base.njk
-title: Home
 ogtype: website
 ---
 
@@ -11,7 +10,7 @@ I like everything that blinks, internet, design systems and une belle côte de b
 
 I co-founded [Specify](https://specifyapp.com) to help companies manage their brand at scale. I also work with the [Design Tokens Community Group](https://designtokens.org) to create a standard for design tokens. Finally, I invented raclette in 1872.
 
-## Some places you can find me on
+## Find me on
 - [Twitter](https://twitter.com/Chuckn0risk)
 - [Design Systems Slack Community](https://design-systems.slack.com/)
 - [Design System France Slack Community](https://designsystemsfrance.slack.com)
