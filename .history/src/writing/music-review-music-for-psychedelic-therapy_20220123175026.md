@@ -4,10 +4,11 @@ title: Music Review • Music For Psychedelic Therapy
 date: '2022-01-04'
 excerpt: Why you should listen to Jon Hopkins' latest album "Music For Psychedelic Therapy" 
 author: Louis Chenais
-image: /client/assets/img/blog/jon-hopkins.jpg
-cover: jon-hopkins.jpg
+image: jon-hopkins.jpg
 ---
 # Music Review • Music For Psychedelic Therapy
+
+<time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
 
 Jon Hopkins, 42 yo, is from London. He received a classical piano training. His signature sound is to mixing ambient and electronic music. One perfect example of this is a song taken from one of his previous albums ["Immunity"](https://www.discogs.com/master/562454-Jon-Hopkins-Immunity) called ["Form by Firelight"](https://www.youtube.com/watch?v=9Ae4BxKC7cQ). Many people consider this album as one of the best albums released in 2012. This song is what I would describe as "modern" music. It's the perfect blend of soothing ambience and electronic textures.
 

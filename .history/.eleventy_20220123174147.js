@@ -26,9 +26,7 @@ module.exports = function (eleventyConfig) {
     image: 'foo.jpg',
     options: {
       titleStyle: 'minimalistic',
-      titleDivider: '|',
-      imageWithBaseUrl: true,
-      twitterCardType: "summary_large_image",
+      titleDivider: '|'
     }
   });
 

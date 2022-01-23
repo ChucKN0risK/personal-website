@@ -23,12 +23,11 @@ module.exports = function (eleventyConfig) {
     url: 'https://lucho.cool',
     author: 'Louis Chenais',
     twitter: 'chuckn0risk',
+    twitterCard: 'summary_large_image',
     image: 'foo.jpg',
     options: {
       titleStyle: 'minimalistic',
-      titleDivider: '|',
-      imageWithBaseUrl: true,
-      twitterCardType: "summary_large_image",
+      titleDivider: '|'
     }
   });
 

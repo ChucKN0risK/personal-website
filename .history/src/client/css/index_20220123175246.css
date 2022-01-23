@@ -153,7 +153,7 @@ time {
     width: 100%;
     overflow: hidden;
     aspect-ratio: 1.83;
-    border-radius: var(--base-space-4);
+    border-radius: var(--base-space-8);
 }
 
 .article-img img {
@@ -165,5 +165,5 @@ time {
 
 .article-img + * {
     margin-top: var(--base-space-8);
-    margin-bottom: var(--base-space-4);
+    margin-bottom: var(--base-space-8);
 }

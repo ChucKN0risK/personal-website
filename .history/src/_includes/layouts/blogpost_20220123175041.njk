@@ -7,12 +7,11 @@
     <main class="article-content">
         <div class="article-img">
             <img
-                src="{{ '/client/assets/img/blog/' ~ cover }}"
+                src="{{ '/client/assets/img/blog/' ~ image }}"
                 alt="{{ imageAlt }}"
                 loading="lazy"
             />
         </div>
-        <time datetime="{{ date | w3DateFilter }}">{{ date | dateFilter }}</time>
         {{ content | safe }}
     </main>
     {% include "components/_footer.njk" %}

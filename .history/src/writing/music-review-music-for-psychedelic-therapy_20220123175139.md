@@ -4,8 +4,7 @@ title: Music Review • Music For Psychedelic Therapy
 date: '2022-01-04'
 excerpt: Why you should listen to Jon Hopkins' latest album "Music For Psychedelic Therapy" 
 author: Louis Chenais
-image: /client/assets/img/blog/jon-hopkins.jpg
-cover: jon-hopkins.jpg
+image: jon-hopkins.jpg
 ---
 # Music Review • Music For Psychedelic Therapy
 
