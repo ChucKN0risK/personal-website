@@ -130,7 +130,7 @@ module.exports = function (eleventyConfig) {
   }
 
   eleventyConfig.addPassthroughCopy('./src/client/assets/img');
-  eleventyConfig.addPassthroughCopy('./src/favicon.png');
+  // eleventyConfig.addPassthroughCopy('./src/favicon.png');
 
   return {
     templateFormats: ['md', 'njk', 'html'],

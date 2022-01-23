@@ -16,6 +16,11 @@
                     </h3>
                     <time datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
                 </article>
+                <img
+                    src="{{ item.data.hero.image }}"
+                    alt="{{ item.data.hero.imageAlt }}"
+                    loading="lazy"
+                />
             </li>
             {% endfor %}
         </ul>

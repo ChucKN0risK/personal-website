@@ -5,20 +5,12 @@
 <body>
     {% include "components/_header.njk" %}
     <main>
-        <h1>Writing</h1>
-        <h2>Here're a few words I've written.</h2>
-        <ul class="article-list">    
-            {% for item in collections.writing %}
-            <li>
-                <article>
-                    <h3>
-                        <a href="{{ item.url }}" aria-label="See {{ item.data.title }}">{{ item.data.title }}</a>
-                    </h3>
-                    <time datetime="{{ item.data.date | w3DateFilter }}">{{ item.data.date | dateFilter }}</time>
-                </article>
-            </li>
-            {% endfor %}
-        </ul>
+        <img
+            src="{{ '/client/assets/img/blog/' ~ image }}"
+            alt="{{ imageAlt }}"
+            loading="lazy"
+        />
+        {{ content | safe }}
     </main>
     {% include "components/_footer.njk" %}
     {#  

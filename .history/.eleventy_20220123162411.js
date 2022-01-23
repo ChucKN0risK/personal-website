@@ -9,24 +9,24 @@ const OUTPUT_DIR = '_site';
 const PATH_PREFIX = '/';
 
 // Filters
-const w3DateFilter = require('./src/filters/w3-date-filter.js');
-const dateFilter = require('./src/filters/date-filter.js');
+const w3DateFilter = require("./src/filters/w3-date-filter.js");
+const dateFilter = require("./src/filters/date-filter.js");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addFilter('w3DateFilter', w3DateFilter);
-  eleventyConfig.addFilter('dateFilter', dateFilter);
+  eleventyConfig.addFilter("w3DateFilter", w3DateFilter);
+  eleventyConfig.addFilter("dateFilter", dateFilter);
 
-  const pluginSEO = require('eleventy-plugin-seo');
+  const pluginSEO = require("eleventy-plugin-seo");
   eleventyConfig.addPlugin(pluginSEO, {
-    title: 'Louis Chenais, co-founder of Specify',
-    description: 'UI developer interested in making people\'s life easier to build and consume digital applications.',
-    url: 'https://lucho.cool',
-    author: 'Louis Chenais',
-    twitter: 'chuckn0risk',
-    image: 'foo.jpg',
+    title: "Louis Chenais, co-founder of Specify",
+    description: "UI developer interested in making people's life easier to build and consume digital applications.",
+    url: "https://lucho.cool",
+    author: "Louis Chenais",
+    twitter: "chuckn0risk",
+    image: "foo.jpg",
     options: {
-      titleStyle: 'minimalistic',
-      titleDivider: '|'
+      titleStyle: "minimalistic",
+      titleDivider: "|"
     }
   });
 
@@ -42,14 +42,14 @@ module.exports = function (eleventyConfig) {
     },
     pattern: /^https?:\/\//,
     attrs: {
-      class: 'external-link',
+      class: "external-link",
     },
   };
   // Disable whitespace-as-code-indicator, which breaks a lot of markup
   let markdownLib = markdownIt(markdownItOptions).disable('code').use(mila, milaOptions);
   eleventyConfig.setLibrary('md', markdownLib);
 
-  const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
+  const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
   
   // Read Vite's manifest.json, and add script tags for the entry files
@@ -130,7 +130,6 @@ module.exports = function (eleventyConfig) {
   }
 
   eleventyConfig.addPassthroughCopy('./src/client/assets/img');
-  eleventyConfig.addPassthroughCopy('./src/favicon.png');
 
   return {
     templateFormats: ['md', 'njk', 'html'],

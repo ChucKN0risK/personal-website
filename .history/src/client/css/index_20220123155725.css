@@ -29,12 +29,6 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    line-height: 1.45;
-    font-size: 1.125rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-    font-style: normal;
-    font-weight: 300;
 }
 
 h1, h2, h3 {
@@ -52,9 +46,13 @@ a:hover {
     --link-color: var(--blue);
 }
 
-img {
-   max-width: 100%;
-   height: auto; 
+body {
+    line-height: 1.45;
+    font-size: 1.125rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-style: normal;
+    font-weight: 300;
 }
 
 :focus:is(input, select, textarea) {
@@ -103,7 +101,7 @@ footer {
     margin-top: var(--base-space-16);
 }
 
-:is(h1, h2, h3, h4) + * {
+:is(h2, h3, h4) + * {
     margin-top: var(--base-space-4);
 }
 
@@ -122,10 +120,6 @@ footer {
     text-decoration-skip: auto;
 }
 
-.article-list {
-    margin-top: var(--base-space-16);
-}
-
 .article {
     color: white;
 }
@@ -136,27 +130,4 @@ footer {
 
 .article h3 {
     color: inherit;
-}
-
-time {
-    font-style: italic;
-}
-
-.article-img {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    aspect-ratio: 1.83;
-    border-radius: var(--base-space-8);
-}
-
-.article-img img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.article-img + h1 {
-    margin-top: var(--base-space-8);
 }
