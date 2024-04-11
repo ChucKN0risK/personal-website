@@ -19,6 +19,6 @@ This album is a 64-minute rhythmless expanse of delicate electronics, immersive 
 
 This album ends on a song called ["Sit Around The Fire"](https://www.youtube.com/watch?v=3G4kCi_ldr8). It includes a narrative from Ram Dass, a spiritual master, psychologist, author and yoga guru. In short, someone who knows how to relax. He led several studies on the effect of psychedelics in the 60s. He considered himself as an atheist and not close to any god until he first tried psychedelics. This song is one of my personal favorites. 
 
-Listen to the album in one shot. It will take 1 hour. It may seem long but this is, in my opinion, the best way to introduce you to ambient music. 
+Listen to the album in one shot. It will take 1 hour. It may seem long but this is, in my opinion, the best way to introduce you to ambient music.
 
 🎧 [Listen to the album on YouTube](https://www.youtube.com/playlist?list=OLAK5uy_nygXZjUpwQJ0j2Ojs0FkzuZflDM2lUh1M)

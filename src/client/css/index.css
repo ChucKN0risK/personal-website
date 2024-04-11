@@ -99,6 +99,10 @@ footer {
     list-style: none;
 }
 
+:is(ol, ul) > * + * {
+    margin-top: var(--base-space-2);
+}
+
 :not(hr, h1, h2, h3, h4) + :is(h2, h3, h4) {
     margin-top: var(--base-space-16);
 }

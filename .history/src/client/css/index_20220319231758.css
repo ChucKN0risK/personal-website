@@ -99,6 +99,10 @@ footer {
     list-style: none;
 }
 
+:is(ol, ul) > * + * {
+    margin-top: var(--base-space-1);
+}
+
 :not(hr, h1, h2, h3, h4) + :is(h2, h3, h4) {
     margin-top: var(--base-space-16);
 }
@@ -139,7 +143,13 @@ footer {
 }
 
 time {
-    font-style: italic;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.article-content time {
+    display: block;
+    color: var(--blue-sky);
 }
 
 .article-img {
@@ -147,7 +157,7 @@ time {
     width: 100%;
     overflow: hidden;
     aspect-ratio: 1.83;
-    border-radius: var(--base-space-8);
+    border-radius: var(--base-space-4);
 }
 
 .article-img img {
@@ -155,4 +165,9 @@ time {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.article-img + * {
+    margin-top: var(--base-space-8);
+    margin-bottom: var(--base-space-4);
 }
