@@ -19,7 +19,20 @@ I co-founded [Specify](https://specifyapp.com) to help companies manage their br
 
 ## What I can share with you
 
+### 2024
+- 
+
+### 2023
+- [Design System Day 2023](https://noti.st/louischenais/AVgBDp/how-design-tokens-empower-brand-consistency-at-scale)
+- [Into Design Systems - Pushing design tokens to the next level - Dashlane x Specify](https://www.youtube.com/watch?v=WddIeXUvVEY)
+
+### 2022
+- [Into Design Systems - Syncing design tokens and assets from Figma to GitHub automatically](https://twitter.com/intodsconf/status/1519327098346819584)
+- [Schema 2022 - An introduction to the design tokens file format](https://www.youtube.com/watch?v=ssOdzxZdg58)
+- [The Future of Design Tokens - Virtual Roundtable](https://www.youtube.com/watch?v=b0UK-j9YXxE)
+
 ### 2021
+- [Into Design Systems - How design tokens empower multi-brand design systems](https://www.youtube.com/watch?v=uiCGvhI7Vwo)
 - [Why your design system needs an API](https://noti.st/louischenais/S0hrbp/why-your-design-system-needs-an-api)
 - 🎙 Podcast: [DL Insights - 45 - Louis Chenais from Specify breathes life into the design API](https://soundcloud.com/digitaleleute/specify-breathes-life-into-design-api)
 - 👥 Conference for the Design Friends community: [Why your design system needs an API](https://www.meetup.com/fr-FR/design-friends/events/276858959/)
