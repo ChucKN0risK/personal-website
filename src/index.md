@@ -45,4 +45,7 @@ I co-founded [Specify](https://specifyapp.com) to help companies manage their br
 ### 2018
 - 📝 [Design Tokens for Dummies](https://uxdesign.cc/design-tokens-for-dummies-8acebf010d71)
 
+### 2016
+- 📝 [4 Responsive Navigation Principles & Their Implementation](https://medium.com/@chuckn0risk/4-responsive-navigation-principles-4f3f57a8a2d1)
+
 
